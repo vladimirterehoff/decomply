@@ -1,4 +1,4 @@
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minimal
 title: Decomply - AI Software Decomposer
 description: Decompose software projects with AI — fast, structured, and effortless...
 logo: /assets/img/logo.png # Update this path if you add a logo
