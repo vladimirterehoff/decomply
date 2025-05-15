@@ -1,5 +1,3 @@
-# Decompose Software Projects with AI
-
 Welcome to **Decomply**, your AI-powered companion for systematically breaking down complex software projects into manageable tasks. Say goodbye to overwhelming scope and hello to clarity and precision in your project planning.
 
 ---
