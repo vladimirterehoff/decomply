@@ -2,9 +2,29 @@
 
 /* Custom CSS below */
 
+/* Hide common top-level site title or project name links */
+/* This targets elements that are often used for a link at the very top of the page. */
+
+/* Generic site header class (previous attempt) */
 .site-header {
   display: none !important;
 }
+
+/* More specific selectors, especially for Cayman-like themes */
+/* Targets an element with class .project-name or .site-title if it is a direct child of body,
+   or a child of the body's first child element (like a top banner div/header). 
+   This is to avoid hiding these classes if used elsewhere, like the main page title you want to keep. */
+
+body > .project-name,
+body > .site-title,
+body > *:first-child > .project-name,
+body > *:first-child > .site-title {
+  display: none !important;
+}
+
+/* If the above doesn't work, the element might be structured differently.
+   For example, it might be an h1 or p tag directly within a top-level header. 
+   Inspecting the element with browser developer tools is the best way to find the exact selector. */
 
 /* If the above doesn't work for jekyll-theme-minimal, 
    the element holding the repository name at the top might be different.
