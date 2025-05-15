@@ -2,4 +2,10 @@ theme: jekyll-theme-minimal
 title: Decomply
 description: Fast, structured, and effortless.
 logo: /assets/img/decomply-logo.png # This theme might not display the logo by default
-show_downloads: false 
+show_downloads: false
+
+sass:
+  load_paths:
+    - _sass
+    - assets/css
+  style: compressed 

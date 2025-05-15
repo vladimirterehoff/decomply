@@ -1,0 +1,12 @@
+@import "{{ site.theme }}";
+
+/* Custom CSS below */
+
+.site-header {
+  display: none !important;
+}
+
+/* If the above doesn't work for jekyll-theme-minimal, 
+   the element holding the repository name at the top might be different.
+   Another common element is just `p > a` within the header if it's a simple link.
+*/ 
